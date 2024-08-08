@@ -6,6 +6,7 @@ import { LaunchParamsPage } from "@/pages/LaunchParamsPage/LaunchParamsPage.tsx"
 import { TONConnectPage } from "@/pages/TONConnectPage/TONConnectPage";
 import { ThemeParamsPage } from "@/pages/ThemeParamsPage/ThemeParamsPage.tsx";
 import { UFOTest } from "../pages/UFOTest/UFOTest";
+import { TonTest } from "../pages/TONTest/TonTest";
 
 interface Route {
   path: string;
@@ -19,6 +20,7 @@ export const routes: Route[] = [
   { path: "/init-data", Component: InitDataPage, title: "Init Data" },
   { path: "/theme-params", Component: ThemeParamsPage, title: "Theme Params" },
   { path: "/ufo-test", Component: UFOTest, title: "UFO Test" },
+  { path: "/ton-test", Component: TonTest, title: "Ton Test" },
   {
     path: "/launch-params",
     Component: LaunchParamsPage,

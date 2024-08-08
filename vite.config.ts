@@ -17,9 +17,9 @@ export default defineConfig({
     basicSsl(),
   ],
   build: {
-    outDir: "./docs",
+    outDir: "./dist",
   },
-  base: "./",
+  base: "/bitverse-tonapp-h5/",
   publicDir: "./public",
   server: {
     // Exposes your dev server and makes it accessible for the devices in the same network.

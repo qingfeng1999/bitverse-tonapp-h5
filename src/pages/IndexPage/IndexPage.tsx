@@ -47,6 +47,11 @@ export const IndexPage: FC = () => {
             UFO Test
           </Cell>
         </Link>
+        <Link to="/ton-test">
+          <Cell subtitle="this is ton test">
+            UFO Test
+          </Cell>
+        </Link>
       </Section>
     </List>
   );
